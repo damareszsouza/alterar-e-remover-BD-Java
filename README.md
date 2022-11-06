@@ -1,4 +1,6 @@
-Adicione	o	método	para	alterar	contato	no	seu		ContatoDao	.
+Adicione	o	método	para	alterar	contato	no	seu		ContatoDao	
+
+
 		public	void	altera(Contato	contato) {
 						String	sql	=	"update	contatos	set	nome=?,	email=?,"
 														"endereco=?,	dataNascimento=?	where	id=?";
